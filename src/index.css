@@ -98,8 +98,7 @@ main{
     width: 140px;
   }
   .form--button{
-    width: 90%;
-    margin-left: 11px;
+    width: 100%;
   }
   .meme--image{
     max-width: 90%;
@@ -110,9 +109,9 @@ main{
     width: 50%;
   }
   .header--h2{
-    font-size: 13px;
+    font-size: 16px;
   }
   .header--h4{
-    font-size: 10px;
+    font-size: 12px;
   }
 }
