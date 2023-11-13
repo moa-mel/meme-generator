@@ -94,17 +94,17 @@ main{
 @media screen and (max-width: 360px) {
   
   main{
-    margin-left: -29px;
+    margin-left: -4px;
   }
   .form--input{
-    width: 120px;
+    width: 140px;
   }
   .form--button{
-    width: 90%;
+    width: 100%;
   }
   .meme--image{
     max-width: 90%;
-    margin-left: -2px;
+    margin-left: 12px;
   }
   .header--img{
     height: 5%;
@@ -112,13 +112,9 @@ main{
   }
   .header--h2{
     font-size: 12px;
-    margin-right: 3px;
   }
   .header--h4{
     font-size: 8px;
-    margin-left: 9px;
   }
-  header{
-    
-  }
+  
 }
