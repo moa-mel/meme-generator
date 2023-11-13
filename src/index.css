@@ -90,12 +90,12 @@ main{
 .top {
   top: 0;
 }
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 360px) {
   main{
-    margin-left: -23px;
+    margin-left: -7px;
   }
   .form--input{
-    width: 130px;
+    width: 140px;
   }
   .form--button{
     width: 90%;
