@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -39,6 +38,7 @@ main{
 .form--input{
   font-family: "Karla", sans-serif;
   border-radius: 5px;
+  width: 50%;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
 }
@@ -55,6 +55,7 @@ main{
   position: relative;
 }
 .meme--image{
+  margin-left: 230px;
   max-width: 100%;
   border-radius: 3px;
 }
@@ -91,27 +92,33 @@ main{
   top: 0;
 }
 @media screen and (max-width: 360px) {
+  
   main{
-    margin-left: -7px;
+    margin-left: -29px;
   }
   .form--input{
-    width: 140px;
+    width: 120px;
   }
   .form--button{
-    width: 100%;
+    width: 90%;
   }
   .meme--image{
     max-width: 90%;
-    margin-left: 11px;
+    margin-left: -2px;
   }
   .header--img{
     height: 5%;
-    width: 50%;
+    width: 20%;
   }
   .header--h2{
-    font-size: 16px;
+    font-size: 12px;
+    margin-right: 3px;
   }
   .header--h4{
-    font-size: 12px;
+    font-size: 8px;
+    margin-left: 9px;
+  }
+  header{
+    
   }
 }
